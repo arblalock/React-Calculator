@@ -1,0 +1,81 @@
+$btnH: 70px;
+$btnW: 70px;
+
+body {
+  background-color: #3F4045;
+  background-color: #427c94;
+}
+
+.Ocont {
+  width: 320px;
+  background-color: #427c94;
+  background-color: #3F4045;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.7);
+  margin: 40px auto 0;
+}
+
+.subCont {
+  width: 280px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(80,80,80);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  background-color: rgb(40,40,40);
+}
+
+.numbtn {
+  height: $btnH;
+  width: $btnW;
+  background-color: rgb(100,100,100);
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  border: 1px solid black;
+  transition: background-color 0.5s;
+}
+
+.btnCont {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.wide-btn {
+  width: $btnW *2;
+}
+
+.high-btn {
+  height: $btnH *2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.display {
+  background-color: rgb(40,40,40);
+  color: white;
+  text-align: right;
+  font-size: 34px;
+  padding: 10px;
+}
+
+.form-disp {
+  font-size: 16px;
+  color: rgb(200,200,200);
+  min-height: 26px;
+  padding: 10px 10px 5px;
+}

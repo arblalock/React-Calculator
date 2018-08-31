@@ -1,0 +1,79 @@
+body {
+  background-color: #3F4045;
+  background-color: #427c94;
+}
+
+.Ocont {
+  width: 320px;
+  background-color: #427c94;
+  background-color: #3F4045;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.subCont {
+  width: 280px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #505050;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  background-color: #282828;
+}
+
+.numbtn {
+  height: 70px;
+  width: 70px;
+  background-color: #646464;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  border: 1px solid black;
+  transition: background-color .5s;
+}
+
+.btnCont {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.wide-btn {
+  width: 140px;
+}
+
+.high-btn {
+  height: 140px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.display {
+  background-color: #282828;
+  color: white;
+  text-align: right;
+  font-size: 34px;
+  padding: 10px;
+}
+
+.form-disp {
+  font-size: 16px;
+  color: #c8c8c8;
+  min-height: 26px;
+  padding: 10px 10px 5px 10px;
+}
